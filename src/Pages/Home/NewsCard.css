@@ -1,0 +1,24 @@
+.pagination {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .pagination__link {
+    padding: 5px 10px;
+    margin: 0 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+    color: #333;
+    text-decoration: none;
+  }
+  .pagination__link :hover{
+    background: #726a6a;
+  }
+  .pagination__link--active {
+    background-color: rgba(17, 125, 240, 0.87);
+    padding: 4px;
+    color: #fff;
+  }
